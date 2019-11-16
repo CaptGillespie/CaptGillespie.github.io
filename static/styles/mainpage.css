@@ -278,7 +278,8 @@ a{
   letter-spacing: 6px;
   background: rgba(16, 69, 100, 0.4);
   text-shadow:-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;}
-.click{
+
+  .click{
   color:white;
   text-shadow:-1px -1px 0 green, 1px -1px 0 green, -1px 1px 0 green, 1px 1px 0 green;
   text-align: left;
