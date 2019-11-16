@@ -267,7 +267,7 @@ a{
   text-shadow:-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;}
 .yellow{
   color: #dbd341;
-  text-shadow:-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;}
+  text-shadow:-1px -1px 0 darkgrey, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;}
 .green{
   color: #12bb20;
   text-shadow:-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;}
@@ -278,7 +278,12 @@ a{
   letter-spacing: 6px;
   background: rgba(16, 69, 100, 0.4);
   text-shadow:-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;}
-
+.click{
+  color:white;
+  text-shadow:-1px -1px 0 green, 1px -1px 0 green, -1px 1px 0 green, 1px 1px 0 green;
+  text-align: left;
+  margin-left: 10%;
+}
 .card-body{
   background-color: black;
   color: white;
