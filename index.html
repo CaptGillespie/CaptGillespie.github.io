@@ -566,16 +566,16 @@
           <div class="dataviz">
               <br>
               <div class="click"><h6>Click to change levels!</h6></div>
+              <svg id="fillgauge1" width="19%" height="200" onclick="gauge1.update(NewValue());"></svg>
               <svg id="fillgauge2" width="19%" height="200" onclick="gauge2.update(NewValue());"></svg>
               <svg id="fillgauge3" width="19%" height="200" onclick="gauge3.update(NewValue());"></svg>
-              <svg id="fillgauge5" width="19%" height="200" onclick="gauge5.update(NewValue());"></svg>
-              <svg id="fillgauge1" width="19%" height="200" onclick="gauge1.update(NewValue());"></svg>
               <svg id="fillgauge4" width="19%" height="200" onclick="gauge4.update(NewValue());"></svg>
+              <svg id="fillgauge5" width="19%" height="200" onclick="gauge5.update(NewValue());"></svg>
               <!-- <svg id="fillgauge6" width="19%" height="200" onclick="gauge6.update(NewValue());"></svg> -->
               <script language="JavaScript">
                   var gauge1 = loadLiquidFillGauge("fillgauge1", 55);
                   var config1 = liquidFillGaugeDefaultSettings();
-                  config1.circleColor = "#FF7777";
+                  config1.circleColor = "#ff0000";
                   config1.textColor = "#FF4444";
                   config1.waveTextColor = "#FFAAAA";
                   config1.waveColor = "#FFDDDD";
@@ -584,10 +584,10 @@
                   config1.waveAnimateTime = 15000;
                   var gauge2= loadLiquidFillGauge("fillgauge2", 28, config1);
                   var config2 = liquidFillGaugeDefaultSettings();
-                  config2.circleColor = "#ff0000";
-                  config2.textColor = "#ff0000";
-                  config2.waveTextColor = "#ff0000";
-                  config2.waveColor = "#ff0000";
+                  config2.circleColor = "#D4AB6A";
+                  config2.textColor = "#553300";
+                  config2.waveTextColor = "#805615";
+                  config2.waveColor = "#AA7D39";
                   config2.circleThickness = 0.1;
                   config2.circleFillGap = 0.2;
                   config2.textVertPosition = 0.8;
