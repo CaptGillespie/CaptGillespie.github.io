@@ -566,12 +566,12 @@
           <div class="dataviz">
               <br>
               <div class="click"><h6>Click to change levels!</h6></div>
-              <svg id="fillgauge1" width="19%" height="200" onclick="gauge1.update(NewValue());"></svg>
+              <!-- <svg id="fillgauge1" width="19%" height="200" onclick="gauge1.update(NewValue());"></svg> -->
               <svg id="fillgauge2" width="19%" height="200" onclick="gauge2.update(NewValue());"></svg>
               <svg id="fillgauge3" width="19%" height="200" onclick="gauge3.update(NewValue());"></svg>
               <svg id="fillgauge4" width="19%" height="200" onclick="gauge4.update(NewValue());"></svg>
               <svg id="fillgauge5" width="19%" height="200" onclick="gauge5.update(NewValue());"></svg>
-              <!-- <svg id="fillgauge6" width="19%" height="200" onclick="gauge6.update(NewValue());"></svg> -->
+              <svg id="fillgauge6" width="19%" height="200" onclick="gauge6.update(NewValue());"></svg>
               <script language="JavaScript">
                   // var gauge1 = loadLiquidFillGauge("fillgauge1", 55);
                   var config1 = liquidFillGaugeDefaultSettings();
@@ -641,7 +641,7 @@
                   config5.minValue = 30;
                   config5.maxValue = 150
                   config5.displayPercent = false;
-                  // var gauge6 = loadLiquidFillGauge("fillgauge6", 120, config5);
+                  var gauge6 = loadLiquidFillGauge("fillgauge6", 120, config5);
               
                   function NewValue(){
                       if(Math.random() > .5){
